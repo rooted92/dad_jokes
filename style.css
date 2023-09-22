@@ -11,8 +11,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
   margin: 0;
 }
 
@@ -21,14 +19,9 @@ body {
   border-radius: 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   max-width: 100%;
-  min-width: 800px;
-  height: auto;
-  overflow: hidden;
+  min-height: 50% auto;
   padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 2rem;
   text-align: center;
 }
 
@@ -39,11 +32,11 @@ h3 {
 }
 
 .joke {
-  font-size: 2rem;
+  font-size: 1.4rem;
   letter-spacing: 1px;
   line-height: 40px;
   margin: 4rem auto;
-  max-width: 600px;
+  max-width: 30rem
 }
 
 .btn {
