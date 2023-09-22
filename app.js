@@ -16,7 +16,7 @@ const generateJoke = async () => {
     // Storing data in JSON format
     const data = await response.json();
     // Displaying data
-    joke.innerHTML = data.joke;
+    joke.textContent = data.joke;
 }
 
 generateJoke();
